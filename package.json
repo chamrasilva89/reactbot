@@ -8,11 +8,17 @@
     "npm": "7.11.2"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "backend": "nodemon index.js"
   },
   "author": "chamarasilva",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.1",
+    "dialogflow": "^1.2.0",
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
   }
 }
